@@ -1,0 +1,276 @@
+/*BASE STYLES */ 
+
+.wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto; /*this centers this section-->*/
+}
+
+/*DEFAULTS*/
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    overflow: auto;
+}
+
+.wrap {
+    max-width: 1280px;
+    padding: 50px;
+}
+
+/***** Homepage *****/
+
+/* Header */
+
+header {
+    text-align: center;
+    color: #ffff;
+    padding: 80px 0;
+}
+
+header img {
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+    padding: 4px;
+}
+
+#header {
+    background-size: cover;
+    padding: 80px 0;
+}
+
+/*Benefits*/
+
+#benefits {
+    background:#BDD5EA;
+    border-bottom: 1px dashed #495867;
+}
+
+/*Three Points*/
+
+.three-points-section img:hover {
+    transform: scale(0.8);
+    border: 2px solid black;
+}
+
+.three-points-section {
+    min-height: 400px;
+}
+
+.three-points-section img {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.three-points-section-image {
+    width: 40%;
+    float: left;
+}
+
+.three-points-section-text {
+    width: 60%;
+    float: left;
+}
+
+/* PRICING TABLE */
+
+#pricing-table {
+    background: #BDD5EA;
+    border-top: 1px dashed #495867;
+    border-bottom: 1px dashed #495867;
+    text-align: center;
+}
+
+section#pricing-table table {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+section#pricing-table table th {
+    background: #495867;
+    color: #ffffff;
+}
+
+section#pricing-table table td {
+    background: #ffffff;
+}
+
+.button {
+    background-color: #fe5f55;
+    padding: 8px 20px;
+    border-radius: 6px;
+    color: white;
+}
+
+a {
+    margin: 25px 0;
+    text-decoration: none;
+}
+
+td, th {
+    border: 5px solid #BDD5EA;
+    padding: 25px;
+}
+
+/*SPEAKERS*/
+
+#speakers h3 {
+    text-align: center;
+}
+
+.speaker-column-1, .speaker-column-2 {
+    float: left;
+    width: 49%;
+}
+
+.speaker-column-1 {
+    background: url('/images/swirl.png');
+    border: 1px solid #efefef;
+    box-shadow: 2px 2px #efefef;
+}
+
+.speaker-column-2 {
+    float: right;
+    background: url('/images/swirl.png');
+    border: 1px solid #efefef;
+    box-shadow: 2px 2px #efefef;
+}
+
+.speaker-column-1 h4, .speaker-column-2 h4 {
+    text-align: center;
+}
+
+.speaker {
+    clear:both;
+    min-height: 200px;
+}
+
+.speaker-image {
+    width: 50%;
+    float:left;
+}
+
+.speaker-image img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.speaker-text {
+    width: 50%;
+    float: left;
+}
+
+.speaker-image img{
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.speaker-image img:hover {
+    border: 2px solid #495867;
+    padding: 3px;
+}
+
+/* HOME-CTA */ 
+
+#home-cta {
+    background: #BDD5EA;
+    border-top: 1px dashed #495867;
+    text-align: center;
+}
+
+#home-cta .button {
+    line-height: 3;
+}
+
+/* Footer */ 
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: #495867;
+}
+
+
+
+/***** Tickets *****/
+
+.tickets h1 {
+    text-align: center;
+}
+
+#ticket-form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.name-input {
+    display: block;
+}
+
+label {
+    display: none;
+    padding: 20px;
+}
+
+button, input {             /*Not Sure Why This Works. I don't see a button class or tag in the html. */
+    overflow: visible;
+    padding: 7px;
+    margin-bottom: 3px;
+}
+
+#ticket-form form {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    background: url('/images/swirl.png');
+    border: 1px solid #efefef;
+    box-shadow: 2px 2px #efefef;
+}
+
+#ticket-form form input[type="submit"] {
+    background-color: #fe5f55;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 6px;
+} 
